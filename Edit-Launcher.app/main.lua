@@ -7,7 +7,7 @@ if args[1] then
   if string.sub(args[1], 1, 1) == "/" then
     shell.run("edit", args[1])
   else
-    shell.run("edit", fs.combine("/Users/"..shell.DLogged, args[1]))
+    shell.run("edit", fs.combine("/Users/"..multishell.DLogged, args[1]))
   end
 else
   print(" Welcome to Edit!")
@@ -16,6 +16,6 @@ else
   if string.sub(f, 1, 1) == "/" then
     shell.run("edit", f)
   else
-    shell.run("edit", fs.combine("/Users/"..shell.DLogged, f))
+    shell.run("edit", fs.combine("/Users/"..multishell.DLogged, f))
   end
 end
