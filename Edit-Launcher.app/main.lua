@@ -12,6 +12,7 @@ if args[1] then
 else
   print(" Welcome to Edit!")
   print(" Please type in the name of your file:")
+  write(" ")
   local f = read()
   if string.sub(f, 1, 1) == "/" then
     shell.run("edit", f)
