@@ -10,7 +10,7 @@
 
 local tArgs = {...}
 local ver = "1.4"
-local sTitle = "File Browser"
+local sTitle = "File Browser by BigSHinyToys"
 local bugTest, norun, dir, showAll
 local _tArgs = {}
 local config = "mouse.cfg"
