@@ -1,6 +1,7 @@
 term.setBackgroundColor(colors.black)
 term.setTextColor(colors.white)
 term.setCursorPos(1,2)
+term.clear()
 local args = {...}
 shell.setDir("")
 if args[1] then
