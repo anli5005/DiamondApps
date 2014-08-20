@@ -16,6 +16,6 @@ else
   if string.sub(f, 1, 1) == "/" then
     shell.run("edit", f)
   else
-    shell.run("edit", fs.combine("/Users/"..DLogged, f))
+    shell.run("edit", fs.combine("/Users/"..shell.DLogged, f))
   end
 end
