@@ -1,6 +1,7 @@
 term.setCursorPos(1,1)
 term.setBackgroundColor(colors.gray)
 term.setTextColor(colors.lightGray)
+term.clear()
 print("")
 print(" Set a password (leave blank to cancel):")
 write(" ")
